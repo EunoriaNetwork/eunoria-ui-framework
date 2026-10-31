@@ -1,7 +1,7 @@
 /* ==========================================================================
-   EUNORIA UI FRAMEWORK - JetSam Inspired
+   EUNORIA UI FRAMEWORK
    Base: #050505 (Eunoria black) + semi-transparent overlay
-   Accent: amber/gold #f5a623 (JetSam style)
+   Accent: amber/gold #f5a623
    Responsive minimum: 640x480
    ========================================================================== */
 
@@ -23,7 +23,7 @@
   --eu-border-strong: rgba(255, 255, 255, 0.18);
   --eu-border-accent: #f5a623;
 
-  /* Accent (JetSam amber) */
+  /* Accent (amber) */
   --eu-accent: #f5a623;
   --eu-accent-hover: #ffb73b;
   --eu-accent-glow: rgba(245, 166, 35, 0.35);
@@ -366,7 +366,7 @@ body {
   color: #fff;
 }
 
-/* ---------- 7. CARDS (core JetSam element) ---------- */
+/* ---------- 7. CARDS ---------- */
 .eu-card {
   background-color: var(--eu-black-elev);
   border: 1.5px solid var(--eu-border-muted);

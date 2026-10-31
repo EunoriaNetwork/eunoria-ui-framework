@@ -1,6 +1,6 @@
 # Eunoria UI Framework
 
-CSS/JS framework for HTML interfaces on top of GTA V Enhanced. Style inspired by the JetSam job script: black base + semi-transparent overlay + amber accent.
+CSS/JS framework for HTML interfaces on top of GTA V Enhanced. Style: black base + semi-transparent overlay + amber accent.
 
 ## Files
 
@@ -29,7 +29,7 @@ For production, pin a version with a tag (e.g. `@v1.0.1`) once jsDelivr has inde
 
 - `--eu-black: #050505` (base black, from the GTA Eunoria project)
 - `--eu-overlay: rgba(5, 5, 5, 0.72)` (semi-transparent overlay)
-- `--eu-accent: #f5a623` (JetSam amber)
+- `--eu-accent: #f5a623` (amber)
 - `--eu-font-header: 'Rajdhani'`, `--eu-font-body: 'Inter'`
 
 ## Responsive
@@ -53,6 +53,6 @@ See `CONTRIBUTING.md`.
 ## Notes
 
 - Custom gold scrollbar (no stripes), own style.
-- Small corner radius (4px) following JetSam. For beveled corners use a custom clip-path.
+- Small corner radius (4px). For beveled corners use a custom clip-path.
 - Compatible with modern CEF. For older CEF (Chromium 63) avoid backdrop-filter and provide fallbacks.
 - Repository: https://github.com/EunoriaNetwork/eunoria-ui-framework

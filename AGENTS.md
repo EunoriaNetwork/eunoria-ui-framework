@@ -1,7 +1,7 @@
 # AGENTS.md — Eunoria UI Framework
 
 ## Description
-CSS/JS framework for HTML interfaces on top of GTA V Enhanced. Style inspired by the JetSam job script: black base `#050505` + semi-transparent overlay + amber accent `#f5a623`. Classes use the `eu-` prefix. Responsive minimum 640x480.
+CSS/JS framework for HTML interfaces on top of GTA V Enhanced. Style: black base `#050505` + semi-transparent overlay + amber accent `#f5a623`. Classes use the `eu-` prefix. Responsive minimum 640x480.
 
 ## Structure
 - `css/eunoria-ui-framework.css` — full framework (tokens, components, responsive).

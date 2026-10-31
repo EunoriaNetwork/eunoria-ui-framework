@@ -19,11 +19,11 @@ CSS/JS framework for HTML interfaces on top of GTA V Enhanced. Style: black base
 
 ### Consumption via CDN (jsDelivr)
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/EunoriaNetwork/eunoria-ui-framework@main/css/eunoria-ui-framework.css">
-<script src="https://cdn.jsdelivr.net/gh/EunoriaNetwork/eunoria-ui-framework@main/js/eunoria-ui-framework.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/EunoriaNetwork/eunoria-ui-framework@v1.1.3/css/eunoria-ui-framework.css">
+<script src="https://cdn.jsdelivr.net/gh/EunoriaNetwork/eunoria-ui-framework@v1.1.3/js/eunoria-ui-framework.js"></script>
 ```
 
-For production, pin a version with a tag (e.g. `@v1.0.1`) once jsDelivr has indexed it.
+Always pin a tag. jsDelivr caches branch URLs for hours, so `@main` can serve stale CSS after a push. A tag creates a new immutable URL.
 
 ## Main tokens
 
@@ -38,7 +38,7 @@ Supports down to 640x480 as a minimum. Media queries at 900px, 640px and 480px h
 
 ## Components
 
-Typography, buttons, cards, modal/panel, inputs, checkbox/radio/toggle/slider, badges, progress, alerts, tabs, tooltip, toast, list items, table, divider, skeleton, panel with fixed heights, custom gold scrollbar.
+Typography (including `.eu-font-chalet` and `.eu-text-display`), buttons, cards, modal/panel, inputs, checkbox/radio/toggle/slider, badges, key caps (`.eu-kbd`), progress, alerts, tabs, text navigation (`.eu-nav` / `.eu-nav-tab`), tooltip, toast, list items, table, divider, skeleton, layout shell (`.eu-shell`), panel with fixed heights, custom gold scrollbar.
 
 ## Branches
 

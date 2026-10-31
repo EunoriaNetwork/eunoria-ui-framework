@@ -852,6 +852,70 @@ textarea.eu-input {
 .eu-tab-panel { display: none; }
 .eu-tab-panel.active { display: block; }
 
+/* ---------- 13b. TEXT NAV ---------- */
+/* Borderless, text-only navigation with clear hover and active states */
+.eu-nav {
+  display: flex;
+  align-items: center;
+  gap: var(--eu-space-4);
+}
+
+.eu-nav-tab {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 2px;
+  border: none;
+  background: none;
+  color: var(--eu-text-muted);
+  font-size: 1.5rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 0.2s ease, text-shadow 0.2s ease, transform 0.12s ease;
+}
+
+.eu-nav-tab::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: var(--eu-accent);
+  box-shadow: 0 0 12px var(--eu-accent-glow);
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  opacity: 0;
+}
+
+.eu-nav-tab:hover {
+  color: var(--eu-text-main);
+}
+
+.eu-nav-tab:hover::after {
+  transform: scaleX(0.6);
+  opacity: 0.55;
+}
+
+.eu-nav-tab:active {
+  transform: translateY(1px);
+}
+
+.eu-nav-tab.active,
+.eu-nav-tab[aria-selected="true"] {
+  color: var(--eu-accent);
+  text-shadow: 0 0 18px var(--eu-accent-glow);
+}
+
+.eu-nav-tab.active::after,
+.eu-nav-tab[aria-selected="true"]::after {
+  transform: scaleX(1);
+  opacity: 1;
+}
+
 /* ---------- 14. TOOLTIP ---------- */
 .eu-tooltip {
   position: relative;

@@ -868,10 +868,12 @@ textarea.eu-input {
   padding: 8px 2px;
   border: none;
   background: none;
-  color: var(--eu-text-muted);
+  color: #dbe1e8;
   font-size: 1.5rem;
+  font-weight: 600;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
   cursor: pointer;
   transition: color 0.2s ease, text-shadow 0.2s ease, transform 0.12s ease;
 }
@@ -893,6 +895,7 @@ textarea.eu-input {
 
 .eu-nav-tab:hover {
   color: var(--eu-text-main);
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.85);
 }
 
 .eu-nav-tab:hover::after {
@@ -907,7 +910,7 @@ textarea.eu-input {
 .eu-nav-tab.active,
 .eu-nav-tab[aria-selected="true"] {
   color: var(--eu-accent);
-  text-shadow: 0 0 18px var(--eu-accent-glow);
+  text-shadow: 0 0 18px var(--eu-accent-glow), 0 2px 10px rgba(0, 0, 0, 0.7);
 }
 
 .eu-nav-tab.active::after,

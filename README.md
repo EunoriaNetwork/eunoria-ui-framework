@@ -40,6 +40,11 @@ Supports down to 640x480 as a minimum. Media queries at 900px, 640px and 480px h
 
 Typography, buttons, cards, modal/panel, inputs, checkbox/radio/toggle/slider, badges, progress, alerts, tabs, tooltip, toast, list items, table, divider, skeleton, panel with fixed heights, custom gold scrollbar.
 
+## Branches
+
+- `main` — stable, production-ready.
+- `development` — testing and work in progress.
+
 ## License
 
 Copyright (c) 2026 EunoriaNetwork. All rights reserved.

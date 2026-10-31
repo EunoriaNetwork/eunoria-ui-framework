@@ -20,12 +20,19 @@ CSS/JS framework for HTML interfaces on top of GTA V Enhanced. Style: black base
 - No stripes on the scrollbar (own style).
 - Base black `#050505`, overlay `rgba(5, 5, 5, 0.72)`.
 
+## Branches
+- `main` — stable, production-ready.
+- `development` — testing and work in progress.
+
 ## Commands
 ```powershell
 cd C:\Users\gmcp_\source\repos\Eunoria-UI-Framework
 git status
 git add -A
 git commit -m "message"
+git push origin development
+git checkout main
+git merge development
 git push origin main
 git tag -a vX.Y.Z -m "vX.Y.Z"
 git push origin vX.Y.Z

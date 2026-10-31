@@ -8,211 +8,211 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Rajdhani:ital,wght@0,500;0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="css/eunoria-framework.css">
+  <link rel="stylesheet" href="css/eunoria-ui-framework.css">
 </head>
 <body>
   <!-- Fondo del juego + overlay -->
-  <div class="gta-game-bg"></div>
-  <div class="gta-overlay"></div>
+  <div class="eu-game-bg"></div>
+  <div class="eu-overlay"></div>
 
-  <div class="gta-root">
-    <header class="gta-mb-8">
-      <div class="gta-flex gta-flex--between gta-flex--wrap gta-gap-4">
+  <div class="eu-root">
+    <header class="eu-mb-8">
+      <div class="eu-flex eu-flex--between eu-flex--wrap eu-gap-4">
         <div>
-          <h1 class="gta-title gta-title--xl">GTA UI FRAMEWORK <span class="gta-text-accent" style="font-size:0.4em;vertical-align:middle;">v1.0</span></h1>
-          <p class="gta-subtitle">Framework de interfaces para GTA V Enhanced. Base #050505 + overlay semi-transparente. Responsive min 640x480.</p>
+          <h1 class="eu-title eu-title--xl">GTA UI FRAMEWORK <span class="eu-text-accent" style="font-size:0.4em;vertical-align:middle;">v1.0</span></h1>
+          <p class="eu-subtitle">Framework de interfaces para GTA V Enhanced. Base #050505 + overlay semi-transparente. Responsive min 640x480.</p>
         </div>
-        <div class="gta-flex gta-gap-2">
-          <span class="gta-badge gta-badge--active"><i class="fa-solid fa-circle" style="font-size:8px;"></i> EN JUEGO</span>
-          <button class="gta-btn gta-btn--secondary gta-btn--sm" onclick="gtaToast('Framework listo', 'success')"><i class="fa-solid fa-bell"></i> Toast</button>
+        <div class="eu-flex eu-gap-2">
+          <span class="eu-badge eu-badge--active"><i class="fa-solid fa-circle" style="font-size:8px;"></i> EN JUEGO</span>
+          <button class="eu-btn eu-btn--secondary eu-btn--sm" onclick="euToast('Framework listo', 'success')"><i class="fa-solid fa-bell"></i> Toast</button>
         </div>
       </div>
     </header>
 
-    <main class="gta-container">
+    <main class="eu-container">
 
       <!-- TIPOGRAFIA -->
-      <section class="gta-mb-8">
-        <h2 class="gta-title gta-title--lg gta-mb-4">1. Tipografia</h2>
-        <div class="gta-panel">
-          <div class="gta-panel__body gta-flex gta-flex--col gta-gap-3">
-            <h3 class="gta-title gta-title--xl">TITULO XL</h3>
-            <h3 class="gta-title gta-title--lg">Titulo Large</h3>
-            <h3 class="gta-title gta-title--md">Titulo Medium</h3>
-            <p class="gta-subtitle">Subtitulo muted para descripciones y ayuda contextual.</p>
-            <p>Texto base del cuerpo. <span class="gta-text-accent">Acento</span> <span class="gta-text-money">$1,250</span> <span class="gta-text-info">Info</span> <span class="gta-text-danger">Error</span> <span class="gta-text-success">OK</span></p>
-            <div class="gta-flex gta-gap-2 gta-flex--wrap">
-              <span class="gta-kbd">ESC</span>
-              <span class="gta-kbd">ENTER</span>
-              <span class="gta-kbd">TAB</span>
-              <span class="gta-kbd">F1</span>
+      <section class="eu-mb-8">
+        <h2 class="eu-title eu-title--lg eu-mb-4">1. Tipografia</h2>
+        <div class="eu-panel">
+          <div class="eu-panel__body eu-flex eu-flex--col eu-gap-3">
+            <h3 class="eu-title eu-title--xl">TITULO XL</h3>
+            <h3 class="eu-title eu-title--lg">Titulo Large</h3>
+            <h3 class="eu-title eu-title--md">Titulo Medium</h3>
+            <p class="eu-subtitle">Subtitulo muted para descripciones y ayuda contextual.</p>
+            <p>Texto base del cuerpo. <span class="eu-text-accent">Acento</span> <span class="eu-text-money">$1,250</span> <span class="eu-text-info">Info</span> <span class="eu-text-danger">Error</span> <span class="eu-text-success">OK</span></p>
+            <div class="eu-flex eu-gap-2 eu-flex--wrap">
+              <span class="eu-kbd">ESC</span>
+              <span class="eu-kbd">ENTER</span>
+              <span class="eu-kbd">TAB</span>
+              <span class="eu-kbd">F1</span>
             </div>
           </div>
         </div>
       </section>
 
       <!-- BOTONES -->
-      <section class="gta-mb-8">
-        <h2 class="gta-title gta-title--lg gta-mb-4">2. Botones</h2>
-        <div class="gta-panel">
-          <div class="gta-panel__body gta-flex gta-flex--col gta-gap-4">
-            <div class="gta-flex gta-gap-3 gta-flex--wrap">
-              <button class="gta-btn gta-btn--primary">CONFIRMAR <span class="gta-kbd">ENTER</span></button>
-              <button class="gta-btn gta-btn--secondary">CANCELAR <span class="gta-kbd">ESC</span></button>
-              <button class="gta-btn gta-btn--ghost"><i class="fa-solid fa-gear"></i> CONFIG</button>
-              <button class="gta-btn gta-btn--danger"><i class="fa-solid fa-trash"></i> ELIMINAR</button>
-              <button class="gta-btn gta-btn--success"><i class="fa-solid fa-check"></i> GUARDAR</button>
-              <button class="gta-btn gta-btn--primary gta-btn--disabled">BLOQUEADO</button>
+      <section class="eu-mb-8">
+        <h2 class="eu-title eu-title--lg eu-mb-4">2. Botones</h2>
+        <div class="eu-panel">
+          <div class="eu-panel__body eu-flex eu-flex--col eu-gap-4">
+            <div class="eu-flex eu-gap-3 eu-flex--wrap">
+              <button class="eu-btn eu-btn--primary">CONFIRMAR <span class="eu-kbd">ENTER</span></button>
+              <button class="eu-btn eu-btn--secondary">CANCELAR <span class="eu-kbd">ESC</span></button>
+              <button class="eu-btn eu-btn--ghost"><i class="fa-solid fa-gear"></i> CONFIG</button>
+              <button class="eu-btn eu-btn--danger"><i class="fa-solid fa-trash"></i> ELIMINAR</button>
+              <button class="eu-btn eu-btn--success"><i class="fa-solid fa-check"></i> GUARDAR</button>
+              <button class="eu-btn eu-btn--primary eu-btn--disabled">BLOQUEADO</button>
             </div>
-            <div class="gta-flex gta-gap-3 gta-flex--wrap">
-              <button class="gta-btn gta-btn--primary gta-btn--sm">Small</button>
-              <button class="gta-btn gta-btn--primary">Normal</button>
-              <button class="gta-btn gta-btn--primary gta-btn--lg">Large</button>
-              <button class="gta-btn gta-btn--secondary gta-btn--icon"><i class="fa-solid fa-plus"></i></button>
-              <button class="gta-btn gta-btn--secondary gta-btn--icon"><i class="fa-solid fa-ellipsis"></i></button>
+            <div class="eu-flex eu-gap-3 eu-flex--wrap">
+              <button class="eu-btn eu-btn--primary eu-btn--sm">Small</button>
+              <button class="eu-btn eu-btn--primary">Normal</button>
+              <button class="eu-btn eu-btn--primary eu-btn--lg">Large</button>
+              <button class="eu-btn eu-btn--secondary eu-btn--icon"><i class="fa-solid fa-plus"></i></button>
+              <button class="eu-btn eu-btn--secondary eu-btn--icon"><i class="fa-solid fa-ellipsis"></i></button>
             </div>
           </div>
         </div>
       </section>
 
       <!-- TARJETAS -->
-      <section class="gta-mb-8">
-        <h2 class="gta-title gta-title--lg gta-mb-4">3. Tarjetas seleccionables (JetSam)</h2>
-        <div class="gta-grid gta-grid--2">
-          <div class="gta-card active" data-gta-card-group="shifts">
-            <div class="gta-card-image-wrapper">
-              <img class="gta-card-image" src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80" alt="Gantry Crane">
+      <section class="eu-mb-8">
+        <h2 class="eu-title eu-title--lg eu-mb-4">3. Tarjetas seleccionables (JetSam)</h2>
+        <div class="eu-grid eu-grid--2">
+          <div class="eu-card active" data-eu-card-group="shifts">
+            <div class="eu-card-image-wrapper">
+              <img class="eu-card-image" src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80" alt="Gantry Crane">
             </div>
-            <div class="gta-card-body">
+            <div class="eu-card-body">
               <div>
-                <div class="gta-card-title"><span>GANTRY CRANE</span><i class="fa-solid fa-arrow-right-long gta-card-icon"></i></div>
-                <p class="gta-card-desc">Move full-size containers from the dock stack into the marked loading slots.</p>
+                <div class="eu-card-title"><span>GANTRY CRANE</span><i class="fa-solid fa-arrow-right-long eu-card-icon"></i></div>
+                <p class="eu-card-desc">Move full-size containers from the dock stack into the marked loading slots.</p>
               </div>
             </div>
           </div>
-          <div class="gta-card" data-gta-card-group="shifts">
-            <div class="gta-card-image-wrapper">
-              <img class="gta-card-image" src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=80" alt="Container Handler">
+          <div class="eu-card" data-eu-card-group="shifts">
+            <div class="eu-card-image-wrapper">
+              <img class="eu-card-image" src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=80" alt="Container Handler">
             </div>
-            <div class="gta-card-body">
+            <div class="eu-card-body">
               <div>
-                <div class="gta-card-title"><span>CONTAINER HANDLER</span><i class="fa-solid fa-arrow-right-long gta-card-icon"></i></div>
-                <p class="gta-card-desc">Collect released containers and deliver them to the warehouse intake.</p>
+                <div class="eu-card-title"><span>CONTAINER HANDLER</span><i class="fa-solid fa-arrow-right-long eu-card-icon"></i></div>
+                <p class="eu-card-desc">Collect released containers and deliver them to the warehouse intake.</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="gta-grid gta-grid--3 gta-mt-4" style="margin-top:16px;">
-          <div class="gta-card active gta-card--compact" data-gta-card-group="modes">
-            <div class="gta-card-body">
-              <div class="gta-card-title" style="font-size:1rem;">MODO INDIVIDUAL <i class="fa-solid fa-user gta-card-icon"></i></div>
-              <p class="gta-card-desc">Comienza el turno en solitario.</p>
+        <div class="eu-grid eu-grid--3 eu-mt-4" style="margin-top:16px;">
+          <div class="eu-card active eu-card--compact" data-eu-card-group="modes">
+            <div class="eu-card-body">
+              <div class="eu-card-title" style="font-size:1rem;">MODO INDIVIDUAL <i class="fa-solid fa-user eu-card-icon"></i></div>
+              <p class="eu-card-desc">Comienza el turno en solitario.</p>
             </div>
           </div>
-          <div class="gta-card gta-card--compact" data-gta-card-group="modes">
-            <div class="gta-card-body">
-              <div class="gta-card-title" style="font-size:1rem;">MODO COOPERATIVO <i class="fa-solid fa-users gta-card-icon"></i></div>
-              <p class="gta-card-desc">Trabaja en equipo (+25% bonus).</p>
+          <div class="eu-card eu-card--compact" data-eu-card-group="modes">
+            <div class="eu-card-body">
+              <div class="eu-card-title" style="font-size:1rem;">MODO COOPERATIVO <i class="fa-solid fa-users eu-card-icon"></i></div>
+              <p class="eu-card-desc">Trabaja en equipo (+25% bonus).</p>
             </div>
           </div>
-          <div class="gta-card gta-card--compact gta-card--disabled">
-            <div class="gta-card-body">
-              <div class="gta-card-title" style="font-size:1rem;">MODO EXPERTO <i class="fa-solid fa-lock gta-card-icon" style="color:#ef4444;opacity:1;transform:none;"></i></div>
-              <p class="gta-card-desc">Requiere Nivel 10.</p>
+          <div class="eu-card eu-card--compact eu-card--disabled">
+            <div class="eu-card-body">
+              <div class="eu-card-title" style="font-size:1rem;">MODO EXPERTO <i class="fa-solid fa-lock eu-card-icon" style="color:#ef4444;opacity:1;transform:none;"></i></div>
+              <p class="eu-card-desc">Requiere Nivel 10.</p>
             </div>
           </div>
         </div>
       </section>
 
       <!-- MODAL -->
-      <section class="gta-mb-8">
-        <h2 class="gta-title gta-title--lg gta-mb-4">4. Modal / Panel contenedor</h2>
-        <div class="gta-modal">
-          <div class="gta-modal-header">
+      <section class="eu-mb-8">
+        <h2 class="eu-title eu-title--lg eu-mb-4">4. Modal / Panel contenedor</h2>
+        <div class="eu-modal">
+          <div class="eu-modal-header">
             <div>
-              <h2 class="gta-title gta-title--lg">CHOOSE YOUR SHIFT</h2>
-              <p class="gta-subtitle">Select the machine you want to operate on this run.</p>
+              <h2 class="eu-title eu-title--lg">CHOOSE YOUR SHIFT</h2>
+              <p class="eu-subtitle">Select the machine you want to operate on this run.</p>
             </div>
-            <div class="gta-flex gta-gap-2">
-              <span class="gta-kbd">ESC</span>
-              <button class="gta-btn gta-btn--ghost gta-btn--icon"><i class="fa-solid fa-xmark"></i></button>
-            </div>
-          </div>
-          <div class="gta-modal-body">
-            <p class="gta-subtitle">Contenido del modal. Aqui van formularios, listas, tablas, etc.</p>
-            <div class="gta-divider"></div>
-            <div class="gta-grid gta-grid--2">
-              <div class="gta-item">
-                <div class="gta-item__icon"><i class="fa-solid fa-truck"></i></div>
-                <div>
-                  <div class="gta-item__title">FORKLIFT</div>
-                  <div class="gta-item__desc">Movimiento rapido en almacen.</div>
-                </div>
-                <div class="gta-item__meta">$120/hr</div>
-              </div>
-              <div class="gta-item active">
-                <div class="gta-item__icon"><i class="fa-solid fa-ship"></i></div>
-                <div>
-                  <div class="gta-item__title">GANTRY CRANE</div>
-                  <div class="gta-item__desc">Carga pesada en muelle.</div>
-                </div>
-                <div class="gta-item__meta">$340/hr</div>
-              </div>
+            <div class="eu-flex eu-gap-2">
+              <span class="eu-kbd">ESC</span>
+              <button class="eu-btn eu-btn--ghost eu-btn--icon"><i class="fa-solid fa-xmark"></i></button>
             </div>
           </div>
-          <div class="gta-modal-footer">
-            <button class="gta-btn gta-btn--secondary">CANCELAR <span class="gta-kbd">ESC</span></button>
-            <button class="gta-btn gta-btn--primary">START SHIFT <span class="gta-kbd">ENTER</span></button>
+          <div class="eu-modal-body">
+            <p class="eu-subtitle">Contenido del modal. Aqui van formularios, listas, tablas, etc.</p>
+            <div class="eu-divider"></div>
+            <div class="eu-grid eu-grid--2">
+              <div class="eu-item">
+                <div class="eu-item__icon"><i class="fa-solid fa-truck"></i></div>
+                <div>
+                  <div class="eu-item__title">FORKLIFT</div>
+                  <div class="eu-item__desc">Movimiento rapido en almacen.</div>
+                </div>
+                <div class="eu-item__meta">$120/hr</div>
+              </div>
+              <div class="eu-item active">
+                <div class="eu-item__icon"><i class="fa-solid fa-ship"></i></div>
+                <div>
+                  <div class="eu-item__title">GANTRY CRANE</div>
+                  <div class="eu-item__desc">Carga pesada en muelle.</div>
+                </div>
+                <div class="eu-item__meta">$340/hr</div>
+              </div>
+            </div>
+          </div>
+          <div class="eu-modal-footer">
+            <button class="eu-btn eu-btn--secondary">CANCELAR <span class="eu-kbd">ESC</span></button>
+            <button class="eu-btn eu-btn--primary">START SHIFT <span class="eu-kbd">ENTER</span></button>
           </div>
         </div>
       </section>
 
       <!-- INPUTS -->
-      <section class="gta-mb-8">
-        <h2 class="gta-title gta-title--lg gta-mb-4">5. Inputs y controles</h2>
-        <div class="gta-grid gta-grid--2">
-          <div class="gta-panel">
-            <div class="gta-panel__header"><h3 class="gta-title gta-title--md">Campos</h3></div>
-            <div class="gta-panel__body gta-flex gta-flex--col gta-gap-4">
+      <section class="eu-mb-8">
+        <h2 class="eu-title eu-title--lg eu-mb-4">5. Inputs y controles</h2>
+        <div class="eu-grid eu-grid--2">
+          <div class="eu-panel">
+            <div class="eu-panel__header"><h3 class="eu-title eu-title--md">Campos</h3></div>
+            <div class="eu-panel__body eu-flex eu-flex--col eu-gap-4">
               <div>
-                <label class="gta-label">Nombre del operador</label>
-                <input class="gta-input" type="text" placeholder="Ej: John Doe">
+                <label class="eu-label">Nombre del operador</label>
+                <input class="eu-input" type="text" placeholder="Ej: John Doe">
               </div>
               <div>
-                <label class="gta-label">Buscar contenedor</label>
-                <div class="gta-input-group">
-                  <input class="gta-input" type="text" placeholder="Codigo de carga">
-                  <i class="fa-solid fa-magnifying-glass gta-input-group__icon"></i>
+                <label class="eu-label">Buscar contenedor</label>
+                <div class="eu-input-group">
+                  <input class="eu-input" type="text" placeholder="Codigo de carga">
+                  <i class="fa-solid fa-magnifying-glass eu-input-group__icon"></i>
                 </div>
               </div>
               <div>
-                <label class="gta-label">Tipo de maquinaria</label>
-                <select class="gta-input">
+                <label class="eu-label">Tipo de maquinaria</label>
+                <select class="eu-input">
                   <option>Grua Horquilla (Forklift)</option>
                   <option>Grua Portico (Gantry Crane)</option>
                   <option>Camion de Carga (Flatbed)</option>
                 </select>
               </div>
               <div>
-                <label class="gta-label">Notas</label>
-                <textarea class="gta-input" rows="3" placeholder="Observaciones del turno..."></textarea>
+                <label class="eu-label">Notas</label>
+                <textarea class="eu-input" rows="3" placeholder="Observaciones del turno..."></textarea>
               </div>
             </div>
           </div>
-          <div class="gta-panel">
-            <div class="gta-panel__header"><h3 class="gta-title gta-title--md">Controles</h3></div>
-            <div class="gta-panel__body gta-flex gta-flex--col gta-gap-4">
-              <label class="gta-check"><input type="checkbox" checked><span class="gta-check__box"></span> Activar radio</label>
-              <label class="gta-check"><input type="checkbox"><span class="gta-check__box"></span> Modo nocturno</label>
-              <label class="gta-check gta-check--radio"><input type="radio" name="r" checked><span class="gta-check__box"></span> Opcion A</label>
-              <label class="gta-check gta-check--radio"><input type="radio" name="r"><span class="gta-check__box"></span> Opcion B</label>
-              <div class="gta-flex gta-flex--between gta-gap-3">
-                <span class="gta-label" style="margin:0;">Sonido</span>
-                <label class="gta-toggle"><input type="checkbox" checked><span class="gta-toggle__track"></span><span class="gta-toggle__thumb"></span></label>
+          <div class="eu-panel">
+            <div class="eu-panel__header"><h3 class="eu-title eu-title--md">Controles</h3></div>
+            <div class="eu-panel__body eu-flex eu-flex--col eu-gap-4">
+              <label class="eu-check"><input type="checkbox" checked><span class="eu-check__box"></span> Activar radio</label>
+              <label class="eu-check"><input type="checkbox"><span class="eu-check__box"></span> Modo nocturno</label>
+              <label class="eu-check eu-check--radio"><input type="radio" name="r" checked><span class="eu-check__box"></span> Opcion A</label>
+              <label class="eu-check eu-check--radio"><input type="radio" name="r"><span class="eu-check__box"></span> Opcion B</label>
+              <div class="eu-flex eu-flex--between eu-gap-3">
+                <span class="eu-label" style="margin:0;">Sonido</span>
+                <label class="eu-toggle"><input type="checkbox" checked><span class="eu-toggle__track"></span><span class="eu-toggle__thumb"></span></label>
               </div>
               <div>
-                <div class="gta-flex gta-flex--between gta-mb-2"><span class="gta-label" style="margin:0;">Volumen</span><span class="gta-text-accent">75%</span></div>
-                <input class="gta-slider" type="range" min="0" max="100" value="75">
+                <div class="eu-flex eu-flex--between eu-mb-2"><span class="eu-label" style="margin:0;">Volumen</span><span class="eu-text-accent">75%</span></div>
+                <input class="eu-slider" type="range" min="0" max="100" value="75">
               </div>
             </div>
           </div>
@@ -220,48 +220,48 @@
       </section>
 
       <!-- BADGES / PROGRESS -->
-      <section class="gta-mb-8">
-        <h2 class="gta-title gta-title--lg gta-mb-4">6. Badges, progreso y alertas</h2>
-        <div class="gta-grid gta-grid--2">
-          <div class="gta-panel">
-            <div class="gta-panel__header"><h3 class="gta-title gta-title--md">Badges</h3></div>
-            <div class="gta-panel__body gta-flex gta-gap-2 gta-flex--wrap">
-              <span class="gta-badge gta-badge--active gta-badge--dot">EN TURNO</span>
-              <span class="gta-badge"><i class="fa-solid fa-clock"></i> ESPERANDO CARGA</span>
-              <span class="gta-badge gta-badge--danger"><i class="fa-solid fa-triangle-exclamation"></i> MANTENIMIENTO</span>
-              <span class="gta-badge gta-badge--money"><i class="fa-solid fa-dollar-sign"></i> $1,250</span>
-              <span class="gta-badge gta-badge--info"><i class="fa-solid fa-circle-info"></i> INFO</span>
-              <span class="gta-badge gta-badge--success"><i class="fa-solid fa-check"></i> COMPLETADO</span>
+      <section class="eu-mb-8">
+        <h2 class="eu-title eu-title--lg eu-mb-4">6. Badges, progreso y alertas</h2>
+        <div class="eu-grid eu-grid--2">
+          <div class="eu-panel">
+            <div class="eu-panel__header"><h3 class="eu-title eu-title--md">Badges</h3></div>
+            <div class="eu-panel__body eu-flex eu-gap-2 eu-flex--wrap">
+              <span class="eu-badge eu-badge--active eu-badge--dot">EN TURNO</span>
+              <span class="eu-badge"><i class="fa-solid fa-clock"></i> ESPERANDO CARGA</span>
+              <span class="eu-badge eu-badge--danger"><i class="fa-solid fa-triangle-exclamation"></i> MANTENIMIENTO</span>
+              <span class="eu-badge eu-badge--money"><i class="fa-solid fa-dollar-sign"></i> $1,250</span>
+              <span class="eu-badge eu-badge--info"><i class="fa-solid fa-circle-info"></i> INFO</span>
+              <span class="eu-badge eu-badge--success"><i class="fa-solid fa-check"></i> COMPLETADO</span>
             </div>
-            <div class="gta-panel__body" style="padding-top:0;">
-              <div class="gta-mb-3">
-                <div class="gta-flex gta-flex--between gta-mb-2"><span class="gta-label" style="margin:0;">Capacidad de almacen</span><span class="gta-text-accent">75%</span></div>
-                <div class="gta-progress gta-progress--lg"><div class="gta-progress-bar" style="width:75%;"></div></div>
+            <div class="eu-panel__body" style="padding-top:0;">
+              <div class="eu-mb-3">
+                <div class="eu-flex eu-flex--between eu-mb-2"><span class="eu-label" style="margin:0;">Capacidad de almacen</span><span class="eu-text-accent">75%</span></div>
+                <div class="eu-progress eu-progress--lg"><div class="eu-progress-bar" style="width:75%;"></div></div>
               </div>
-              <div class="gta-mb-3">
-                <div class="gta-flex gta-flex--between gta-mb-2"><span class="gta-label" style="margin:0;">Salud</span><span class="gta-text-danger">40%</span></div>
-                <div class="gta-progress"><div class="gta-progress-bar gta-progress-bar--danger" style="width:40%;"></div></div>
+              <div class="eu-mb-3">
+                <div class="eu-flex eu-flex--between eu-mb-2"><span class="eu-label" style="margin:0;">Salud</span><span class="eu-text-danger">40%</span></div>
+                <div class="eu-progress"><div class="eu-progress-bar eu-progress-bar--danger" style="width:40%;"></div></div>
               </div>
               <div>
-                <div class="gta-flex gta-flex--between gta-mb-2"><span class="gta-label" style="margin:0;">Experiencia</span><span class="gta-text-info">60%</span></div>
-                <div class="gta-progress gta-progress--sm"><div class="gta-progress-bar gta-progress-bar--info" style="width:60%;"></div></div>
+                <div class="eu-flex eu-flex--between eu-mb-2"><span class="eu-label" style="margin:0;">Experiencia</span><span class="eu-text-info">60%</span></div>
+                <div class="eu-progress eu-progress--sm"><div class="eu-progress-bar eu-progress-bar--info" style="width:60%;"></div></div>
               </div>
             </div>
           </div>
-          <div class="gta-panel">
-            <div class="gta-panel__header"><h3 class="gta-title gta-title--md">Alertas</h3></div>
-            <div class="gta-panel__body gta-flex gta-flex--col gta-gap-3">
-              <div class="gta-alert">
-                <i class="fa-solid fa-circle-info gta-alert__icon" style="color:var(--gta-accent);"></i>
-                <div><div class="gta-alert__title">Notificacion de puerto</div><div class="gta-alert__text">El turno nocturno otorga paga doble por contenedor procesado.</div></div>
+          <div class="eu-panel">
+            <div class="eu-panel__header"><h3 class="eu-title eu-title--md">Alertas</h3></div>
+            <div class="eu-panel__body eu-flex eu-flex--col eu-gap-3">
+              <div class="eu-alert">
+                <i class="fa-solid fa-circle-info eu-alert__icon" style="color:var(--eu-accent);"></i>
+                <div><div class="eu-alert__title">Notificacion de puerto</div><div class="eu-alert__text">El turno nocturno otorga paga doble por contenedor procesado.</div></div>
               </div>
-              <div class="gta-alert gta-alert--danger">
-                <i class="fa-solid fa-triangle-exclamation gta-alert__icon" style="color:var(--gta-danger);"></i>
-                <div><div class="gta-alert__title">Mantenimiento</div><div class="gta-alert__text">La grua portico esta fuera de servicio.</div></div>
+              <div class="eu-alert eu-alert--danger">
+                <i class="fa-solid fa-triangle-exclamation eu-alert__icon" style="color:var(--eu-danger);"></i>
+                <div><div class="eu-alert__title">Mantenimiento</div><div class="eu-alert__text">La grua portico esta fuera de servicio.</div></div>
               </div>
-              <div class="gta-alert gta-alert--success">
-                <i class="fa-solid fa-check gta-alert__icon" style="color:var(--gta-success);"></i>
-                <div><div class="gta-alert__title">Turno completado</div><div class="gta-alert__text">Has procesado 12 contenedores.</div></div>
+              <div class="eu-alert eu-alert--success">
+                <i class="fa-solid fa-check eu-alert__icon" style="color:var(--eu-success);"></i>
+                <div><div class="eu-alert__title">Turno completado</div><div class="eu-alert__text">Has procesado 12 contenedores.</div></div>
               </div>
             </div>
           </div>
@@ -269,45 +269,45 @@
       </section>
 
       <!-- TABS -->
-      <section class="gta-mb-8">
-        <h2 class="gta-title gta-title--lg gta-mb-4">7. Tabs</h2>
-        <div class="gta-panel">
-          <div class="gta-tabs">
-            <button class="gta-tab active" data-gta-tab="tab1" data-gta-tab-group="demo">General</button>
-            <button class="gta-tab" data-gta-tab="tab2" data-gta-tab-group="demo">Inventario</button>
-            <button class="gta-tab" data-gta-tab="tab3" data-gta-tab-group="demo">Estadisticas</button>
+      <section class="eu-mb-8">
+        <h2 class="eu-title eu-title--lg eu-mb-4">7. Tabs</h2>
+        <div class="eu-panel">
+          <div class="eu-tabs">
+            <button class="eu-tab active" data-eu-tab="tab1" data-eu-tab-group="demo">General</button>
+            <button class="eu-tab" data-eu-tab="tab2" data-eu-tab-group="demo">Inventario</button>
+            <button class="eu-tab" data-eu-tab="tab3" data-eu-tab-group="demo">Estadisticas</button>
           </div>
-          <div class="gta-panel__body">
-            <div class="gta-tab-panel active" data-gta-panel="tab1" data-gta-panel-group="demo">
-              <p class="gta-subtitle">Contenido general del panel. Aqui va informacion principal del turno.</p>
+          <div class="eu-panel__body">
+            <div class="eu-tab-panel active" data-eu-panel="tab1" data-eu-panel-group="demo">
+              <p class="eu-subtitle">Contenido general del panel. Aqui va informacion principal del turno.</p>
             </div>
-            <div class="gta-tab-panel" data-gta-panel="tab2" data-gta-panel-group="demo">
-              <p class="gta-subtitle">Lista de items del inventario del jugador.</p>
-              <div class="gta-list gta-mt-4" style="margin-top:12px;">
-                <div class="gta-item"><div class="gta-item__icon"><i class="fa-solid fa-box"></i></div><div><div class="gta-item__title">CAJA DE HERRAMIENTAS</div><div class="gta-item__desc">x3</div></div><div class="gta-item__meta">0.5 kg</div></div>
-                <div class="gta-item"><div class="gta-item__icon"><i class="fa-solid fa-gas-pump"></i></div><div><div class="gta-item__title">BIDON DE GASOLINA</div><div class="gta-item__desc">x1</div></div><div class="gta-item__meta">20 L</div></div>
+            <div class="eu-tab-panel" data-eu-panel="tab2" data-eu-panel-group="demo">
+              <p class="eu-subtitle">Lista de items del inventario del jugador.</p>
+              <div class="eu-list eu-mt-4" style="margin-top:12px;">
+                <div class="eu-item"><div class="eu-item__icon"><i class="fa-solid fa-box"></i></div><div><div class="eu-item__title">CAJA DE HERRAMIENTAS</div><div class="eu-item__desc">x3</div></div><div class="eu-item__meta">0.5 kg</div></div>
+                <div class="eu-item"><div class="eu-item__icon"><i class="fa-solid fa-gas-pump"></i></div><div><div class="eu-item__title">BIDON DE GASOLINA</div><div class="eu-item__desc">x1</div></div><div class="eu-item__meta">20 L</div></div>
               </div>
             </div>
-            <div class="gta-tab-panel" data-gta-panel="tab3" data-gta-panel-group="demo">
-              <p class="gta-subtitle">Estadisticas del jugador: turnos completados, dinero ganado, etc.</p>
+            <div class="eu-tab-panel" data-eu-panel="tab3" data-eu-panel-group="demo">
+              <p class="eu-subtitle">Estadisticas del jugador: turnos completados, dinero ganado, etc.</p>
             </div>
           </div>
         </div>
       </section>
 
       <!-- TABLA -->
-      <section class="gta-mb-8">
-        <h2 class="gta-title gta-title--lg gta-mb-4">8. Tabla</h2>
-        <div class="gta-panel">
-          <div class="gta-panel__body" style="padding:0;">
-            <table class="gta-table gta-table--striped">
+      <section class="eu-mb-8">
+        <h2 class="eu-title eu-title--lg eu-mb-4">8. Tabla</h2>
+        <div class="eu-panel">
+          <div class="eu-panel__body" style="padding:0;">
+            <table class="eu-table eu-table--striped">
               <thead>
                 <tr><th>Jugador</th><th>Turno</th><th>Contenedores</th><th>Pago</th><th>Estado</th></tr>
               </thead>
               <tbody>
-                <tr><td>John_Doe</td><td>Nocturno</td><td>12</td><td class="gta-text-money">$1,440</td><td><span class="gta-badge gta-badge--success gta-badge--dot">ACTIVO</span></td></tr>
-                <tr><td>Jane_Smith</td><td>Diurno</td><td>8</td><td class="gta-text-money">$640</td><td><span class="gta-badge gta-badge--info gta-badge--dot">ESPERANDO</span></td></tr>
-                <tr><td>Mike_Ross</td><td>Nocturno</td><td>0</td><td class="gta-text-money">$0</td><td><span class="gta-badge gta-badge--danger gta-badge--dot">MANT.</span></td></tr>
+                <tr><td>John_Doe</td><td>Nocturno</td><td>12</td><td class="eu-text-money">$1,440</td><td><span class="eu-badge eu-badge--success eu-badge--dot">ACTIVO</span></td></tr>
+                <tr><td>Jane_Smith</td><td>Diurno</td><td>8</td><td class="eu-text-money">$640</td><td><span class="eu-badge eu-badge--info eu-badge--dot">ESPERANDO</span></td></tr>
+                <tr><td>Mike_Ross</td><td>Nocturno</td><td>0</td><td class="eu-text-money">$0</td><td><span class="eu-badge eu-badge--danger eu-badge--dot">MANT.</span></td></tr>
               </tbody>
             </table>
           </div>
@@ -315,32 +315,32 @@
       </section>
 
       <!-- TOOLTIP + SKELETON -->
-      <section class="gta-mb-8">
-        <h2 class="gta-title gta-title--lg gta-mb-4">9. Tooltip y Skeleton</h2>
-        <div class="gta-flex gta-gap-4 gta-flex--wrap">
-          <span class="gta-tooltip">Pasa el raton <span class="gta-tooltip__content">Tooltip informativo</span></span>
-          <div class="gta-skeleton" style="width:200px;height:20px;"></div>
-          <div class="gta-skeleton" style="width:120px;height:36px;"></div>
+      <section class="eu-mb-8">
+        <h2 class="eu-title eu-title--lg eu-mb-4">9. Tooltip y Skeleton</h2>
+        <div class="eu-flex eu-gap-4 eu-flex--wrap">
+          <span class="eu-tooltip">Pasa el raton <span class="eu-tooltip__content">Tooltip informativo</span></span>
+          <div class="eu-skeleton" style="width:200px;height:20px;"></div>
+          <div class="eu-skeleton" style="width:120px;height:36px;"></div>
         </div>
       </section>
 
       <!-- PANEL ALTURAS FIJAS -->
-      <section class="gta-mb-8">
-        <h2 class="gta-title gta-title--lg gta-mb-4">10. Panel con alturas fijas</h2>
-        <div class="gta-panel" style="height:240px;">
-          <div class="gta-panel__header"><h3 class="gta-title gta-title--md">INVENTARIO (scroll)</h3></div>
-          <div class="gta-panel__body">
-            <div class="gta-list">
-              <div class="gta-item"><div class="gta-item__icon"><i class="fa-solid fa-box"></i></div><div><div class="gta-item__title">ITEM 1</div><div class="gta-item__desc">Descripcion</div></div></div>
-              <div class="gta-item"><div class="gta-item__icon"><i class="fa-solid fa-box"></i></div><div><div class="gta-item__title">ITEM 2</div><div class="gta-item__desc">Descripcion</div></div></div>
-              <div class="gta-item"><div class="gta-item__icon"><i class="fa-solid fa-box"></i></div><div><div class="gta-item__title">ITEM 3</div><div class="gta-item__desc">Descripcion</div></div></div>
-              <div class="gta-item"><div class="gta-item__icon"><i class="fa-solid fa-box"></i></div><div><div class="gta-item__title">ITEM 4</div><div class="gta-item__desc">Descripcion</div></div></div>
-              <div class="gta-item"><div class="gta-item__icon"><i class="fa-solid fa-box"></i></div><div><div class="gta-item__title">ITEM 5</div><div class="gta-item__desc">Descripcion</div></div></div>
+      <section class="eu-mb-8">
+        <h2 class="eu-title eu-title--lg eu-mb-4">10. Panel con alturas fijas</h2>
+        <div class="eu-panel" style="height:240px;">
+          <div class="eu-panel__header"><h3 class="eu-title eu-title--md">INVENTARIO (scroll)</h3></div>
+          <div class="eu-panel__body">
+            <div class="eu-list">
+              <div class="eu-item"><div class="eu-item__icon"><i class="fa-solid fa-box"></i></div><div><div class="eu-item__title">ITEM 1</div><div class="eu-item__desc">Descripcion</div></div></div>
+              <div class="eu-item"><div class="eu-item__icon"><i class="fa-solid fa-box"></i></div><div><div class="eu-item__title">ITEM 2</div><div class="eu-item__desc">Descripcion</div></div></div>
+              <div class="eu-item"><div class="eu-item__icon"><i class="fa-solid fa-box"></i></div><div><div class="eu-item__title">ITEM 3</div><div class="eu-item__desc">Descripcion</div></div></div>
+              <div class="eu-item"><div class="eu-item__icon"><i class="fa-solid fa-box"></i></div><div><div class="eu-item__title">ITEM 4</div><div class="eu-item__desc">Descripcion</div></div></div>
+              <div class="eu-item"><div class="eu-item__icon"><i class="fa-solid fa-box"></i></div><div><div class="eu-item__title">ITEM 5</div><div class="eu-item__desc">Descripcion</div></div></div>
             </div>
           </div>
-          <div class="gta-panel__footer gta-flex gta-flex--between">
-            <span class="gta-subtitle">5 items</span>
-            <button class="gta-btn gta-btn--primary gta-btn--sm">ACEPTAR</button>
+          <div class="eu-panel__footer eu-flex eu-flex--between">
+            <span class="eu-subtitle">5 items</span>
+            <button class="eu-btn eu-btn--primary eu-btn--sm">ACEPTAR</button>
           </div>
         </div>
       </section>
@@ -348,6 +348,6 @@
     </main>
   </div>
 
-  <script src="js/eunoria-framework.js"></script>
+  <script src="js/eunoria-ui-framework.js"></script>
 </body>
 </html>

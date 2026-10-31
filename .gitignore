@@ -1,0 +1,13 @@
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Node (si se añade build tooling en el futuro)
+node_modules/
+dist/
+build/
+
+# Logs
+*.log

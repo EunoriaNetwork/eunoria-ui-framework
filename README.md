@@ -4,22 +4,22 @@ Framework de CSS para interfaces HTML sobre GTA V Enhanced. Estilo inspirado en 
 
 ## Archivos
 
-- `css/eunoria-framework.css` — framework completo (variables, componentes, responsive).
-- `js/eunoria-framework.js` — helpers minimos (tabs, seleccion de tarjetas, toasts).
+- `css/eunoria-ui-framework.css` — framework completo (variables, componentes, responsive).
+- `js/eunoria-ui-framework.js` — helpers minimos (tabs, seleccion de tarjetas, toasts).
 - `index.html` — pagina de ejemplo con todos los componentes.
 
 ## Uso
 
 1. Incluye las fuentes e iconos (o usa los del proyecto).
-2. Enlaza `css/eunoria-framework.css`.
-3. Envuelve tu contenido en `.gta-root` (con `.gta-game-bg` y `.gta-overlay` de fondo).
-4. Usa las clases `gta-*`.
+2. Enlaza `css/eunoria-ui-framework.css`.
+3. Envuelve tu contenido en `.eu-root` (con `.eu-game-bg` y `.eu-overlay` de fondo).
+4. Usa las clases `eu-*`.
 
 ```html
 <link rel="stylesheet" href="css/eunoria-framework.css">
-<div class="gta-game-bg"></div>
-<div class="gta-overlay"></div>
-<div class="gta-root">
+<div class="eu-game-bg"></div>
+<div class="eu-overlay"></div>
+<div class="eu-root">
   <!-- contenido -->
 </div>
 <script src="js/eunoria-framework.js"></script>
@@ -27,10 +27,10 @@ Framework de CSS para interfaces HTML sobre GTA V Enhanced. Estilo inspirado en 
 
 ## Tokens principales
 
-- `--gta-black: #050505` (base negro, del proyecto GTA Eunoria)
-- `--gta-overlay: rgba(5,5,5,0.72)` (overlay semi-transparente)
-- `--gta-accent: #f5a623` (ambar JetSam)
-- `--gta-font-header: 'Rajdhani'`, `--gta-font-body: 'Inter'`
+- `--eu-black: #050505` (base negro, del proyecto GTA Eunoria)
+- `--eu-overlay: rgba(5,5,5,0.72)` (overlay semi-transparente)
+- `--eu-accent: #f5a623` (ambar JetSam)
+- `--eu-font-header: 'Rajdhani'`, `--eu-font-body: 'Inter'`
 
 ## Responsive
 

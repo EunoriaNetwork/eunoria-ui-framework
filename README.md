@@ -4,25 +4,25 @@ Framework de CSS para interfaces HTML sobre GTA V Enhanced. Estilo inspirado en 
 
 ## Archivos
 
-- `css/gta-ui.css` — framework completo (variables, componentes, responsive).
-- `js/gta-ui.js` — helpers minimos (tabs, seleccion de tarjetas, toasts).
+- `css/eunoria-framework.css` — framework completo (variables, componentes, responsive).
+- `js/eunoria-framework.js` — helpers minimos (tabs, seleccion de tarjetas, toasts).
 - `index.html` — pagina de ejemplo con todos los componentes.
 
 ## Uso
 
 1. Incluye las fuentes e iconos (o usa los del proyecto).
-2. Enlaza `css/gta-ui.css`.
+2. Enlaza `css/eunoria-framework.css`.
 3. Envuelve tu contenido en `.gta-root` (con `.gta-game-bg` y `.gta-overlay` de fondo).
 4. Usa las clases `gta-*`.
 
 ```html
-<link rel="stylesheet" href="css/gta-ui.css">
+<link rel="stylesheet" href="css/eunoria-framework.css">
 <div class="gta-game-bg"></div>
 <div class="gta-overlay"></div>
 <div class="gta-root">
   <!-- contenido -->
 </div>
-<script src="js/gta-ui.js"></script>
+<script src="js/eunoria-framework.js"></script>
 ```
 
 ## Tokens principales

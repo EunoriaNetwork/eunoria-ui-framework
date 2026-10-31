@@ -130,19 +130,19 @@ body {
 
 /* ---------- 3. TIPOGRAFIA ---------- */
 
-/* Chalet Comprime (condensed, oblique) for large display text */
+/* Chalet Comprime (condensed) for large display text */
 @font-face {
   font-family: 'ChaletComprime';
   src: url('../fonts/ChaletComprimeCologneSixty.ttf') format('truetype');
   font-weight: normal;
-  font-style: oblique;
+  font-style: normal;
   font-stretch: condensed;
   font-display: swap;
 }
 
 .eu-font-chalet {
   font-family: 'ChaletComprime', 'Rajdhani', sans-serif;
-  font-style: oblique;
+  font-style: normal;
   font-stretch: condensed;
 }
 

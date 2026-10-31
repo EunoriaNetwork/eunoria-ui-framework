@@ -15,6 +15,14 @@ Framework de CSS para interfaces HTML sobre GTA V Enhanced. Estilo inspirado en 
 3. Envuelve tu contenido en `.eu-root` (con `.eu-game-bg` y `.eu-overlay` de fondo).
 4. Usa las clases `eu-*`.
 
+### Consumo por CDN (jsDelivr)
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/EunoriaNetwork/eunoria-ui-framework@main/css/eunoria-ui-framework.css">
+<script src="https://cdn.jsdelivr.net/gh/EunoriaNetwork/eunoria-ui-framework@main/js/eunoria-ui-framework.js"></script>
+```
+
+Para producción, fija una versión con un tag (ej. `@v1.0.1`) una vez que jsDelivr lo indexe.
+
 ```html
 <link rel="stylesheet" href="css/eunoria-framework.css">
 <div class="eu-game-bg"></div>

@@ -857,7 +857,7 @@ textarea.eu-input {
 .eu-nav {
   display: flex;
   align-items: center;
-  gap: var(--eu-space-4);
+  gap: 32px;
 }
 
 .eu-nav-tab {
@@ -917,6 +917,17 @@ textarea.eu-input {
 .eu-nav-tab[aria-selected="true"]::after {
   transform: scaleX(1);
   opacity: 1;
+}
+
+/* Optional icon-only labels on very small screens */
+.eu-nav-tab__icon { display: none; }
+.eu-nav-tab__label { display: inline; }
+
+@media (max-width: 640px) {
+  .eu-nav--compact { gap: var(--eu-space-4); }
+  .eu-nav--compact .eu-nav-tab { padding: 8px 4px; }
+  .eu-nav--compact .eu-nav-tab__icon { display: inline-flex; }
+  .eu-nav--compact .eu-nav-tab__label { display: none; }
 }
 
 /* ---------- 14. TOOLTIP ---------- */

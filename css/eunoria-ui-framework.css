@@ -1,68 +1,68 @@
 /* ==========================================================================
    EUNORIA UI FRAMEWORK - JetSam Inspired
-   Base: #050505 (negro Eunoria) + overlay semi-transparente
-   Acento: ambar/dorado #f5a623 (JetSam style)
-   Responsive minimo: 640x480
+   Base: #050505 (Eunoria black) + semi-transparent overlay
+   Accent: amber/gold #f5a623 (JetSam style)
+   Responsive minimum: 640x480
    ========================================================================== */
 
 /* ---------- 1. TOKENS ---------- */
 :root {
-  /* Colores base */
+  /* Base colors */
   --eu-black: #050505;
   --eu-black-soft: #0a0a0a;
   --eu-black-elev: #121212;
   --eu-black-input: #080808;
 
-  /* Overlay semi-transparente sobre el juego */
+  /* Semi-transparent overlay over the game */
   --eu-overlay: rgba(5, 5, 5, 0.72);
   --eu-overlay-strong: rgba(5, 5, 5, 0.88);
   --eu-overlay-light: rgba(5, 5, 5, 0.45);
 
-  /* Bordes */
+  /* Borders */
   --eu-border-muted: rgba(255, 255, 255, 0.08);
   --eu-border-strong: rgba(255, 255, 255, 0.18);
   --eu-border-accent: #f5a623;
 
-  /* Acento (JetSam amber) */
+  /* Accent (JetSam amber) */
   --eu-accent: #f5a623;
   --eu-accent-hover: #ffb73b;
   --eu-accent-glow: rgba(245, 166, 35, 0.35);
   --eu-accent-soft: rgba(245, 166, 35, 0.15);
 
-  /* Datos / estados */
+  /* Data / states */
   --eu-money: #30f500;
   --eu-info: #39c1ff;
   --eu-danger: #ef4444;
   --eu-success: #22c55e;
   --eu-warning: #f59e0b;
 
-  /* Texto */
+  /* Text */
   --eu-text-main: #ffffff;
   --eu-text-muted: #9aa3b0;
   --eu-text-dark: #050505;
   --eu-text-dim: #6b7280;
 
-  /* Tipografia */
+  /* Typography */
   --eu-font-header: 'Rajdhani', 'Segoe UI', sans-serif;
   --eu-font-body: 'Inter', 'Segoe UI', sans-serif;
   --eu-font-mono: 'Consolas', 'Courier New', monospace;
 
-  /* Geometria */
+  /* Geometry */
   --eu-radius: 4px;
   --eu-radius-sm: 3px;
   --eu-radius-lg: 6px;
 
-  /* Transiciones */
+  /* Transitions */
   --eu-transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
   --eu-transition-fast: all 0.12s ease;
 
-  /* Sombras */
+  /* Shadows */
   --eu-shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.5);
   --eu-shadow-md: 0 12px 30px rgba(0, 0, 0, 0.65);
   --eu-shadow-lg: 0 24px 60px rgba(0, 0, 0, 0.8);
   --eu-shadow-glow: 0 0 20px var(--eu-accent-glow);
 
-  /* Espaciado base */
+  /* Base spacing */
   --eu-space-1: 4px;
   --eu-space-2: 8px;
   --eu-space-3: 12px;
@@ -99,7 +99,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Fondo del juego (placeholder) + overlay */
+/* Game background (placeholder) + overlay */
 .eu-game-bg {
   position: fixed;
   inset: 0;
@@ -120,7 +120,7 @@ body {
   -webkit-backdrop-filter: blur(2px);
 }
 
-/* Contenedor principal de contenido */
+/* Main content container */
 .eu-root {
   position: relative;
   z-index: 1;
@@ -247,7 +247,7 @@ body {
 .eu-w-full { width: 100%; }
 .eu-h-full { height: 100%; }
 
-/* ---------- 5. SCROLLBAR (estilo propio, sin franjas) ---------- */
+/* ---------- 5. SCROLLBAR (custom style, no stripes) ---------- */
 *::-webkit-scrollbar { width: 8px; height: 8px; }
 *::-webkit-scrollbar-track {
   background: var(--eu-black-soft);
@@ -366,7 +366,7 @@ body {
   color: #fff;
 }
 
-/* ---------- 7. TARJETAS (core JetSam element) ---------- */
+/* ---------- 7. CARDS (core JetSam element) ---------- */
 .eu-card {
   background-color: var(--eu-black-elev);
   border: 1.5px solid var(--eu-border-muted);
@@ -995,7 +995,7 @@ textarea.eu-input {
   100% { background-position: -200% 0; }
 }
 
-/* ---------- 20. PANEL (header/main/footer alturas fijas) ---------- */
+/* ---------- 20. PANEL (header/main/footer fixed heights) ---------- */
 .eu-panel {
   display: flex;
   flex-direction: column;

@@ -4,7 +4,7 @@
 .DS_Store
 Thumbs.db
 
-# Node (si se añade build tooling en el futuro)
+# Node (if build tooling is added in the future)
 node_modules/
 dist/
 build/

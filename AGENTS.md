@@ -1,42 +1,42 @@
 # AGENTS.md — Eunoria UI Framework
 
-## Descripción
-Framework de CSS/JS para interfaces HTML sobre GTA V Enhanced. Estilo inspirado en el script de trabajo JetSam: negro base `#050505` + overlay semi-transparente + acento ámbar `#f5a623`. Clases con prefijo `eu-`. Responsive mínimo 640x480.
+## Description
+CSS/JS framework for HTML interfaces on top of GTA V Enhanced. Style inspired by the JetSam job script: black base `#050505` + semi-transparent overlay + amber accent `#f5a623`. Classes use the `eu-` prefix. Responsive minimum 640x480.
 
-## Estructura
-- `css/eunoria-ui-framework.css` — framework completo (tokens, componentes, responsive).
-- `js/eunoria-ui-framework.js` — helpers (tabs, selección de tarjetas, toasts).
-- `index.html` — página de ejemplo con todos los componentes.
-- `README.md` — uso y tokens.
-- `.gitignore` — exclusiones.
+## Structure
+- `css/eunoria-ui-framework.css` — full framework (tokens, components, responsive).
+- `js/eunoria-ui-framework.js` — helpers (tabs, card selection, toasts).
+- `index.html` — example page showing every component.
+- `README.md` — usage and tokens.
+- `.gitignore` — exclusions.
 
-## Convenciones
-- Prefijo de clases: `eu-` (ej. `eu-btn`, `eu-card`, `eu-modal`).
-- Variables CSS: `--eu-*`.
-- Atributos data: `data-eu-*`.
-- Toast global: `window.euToast(msg, type)`.
-- No usar franjas en scrollbar (estilo propio).
-- Base negro `#050505`, overlay `rgba(5,5,5,0.72)`.
+## Conventions
+- Class prefix: `eu-` (e.g. `eu-btn`, `eu-card`, `eu-modal`).
+- CSS variables: `--eu-*`.
+- Data attributes: `data-eu-*`.
+- Global toast: `window.euToast(msg, type)`.
+- No stripes on the scrollbar (own style).
+- Base black `#050505`, overlay `rgba(5, 5, 5, 0.72)`.
 
-## Comandos
+## Commands
 ```powershell
 cd C:\Users\gmcp_\source\repos\Eunoria-UI-Framework
 git status
 git add -A
-git commit -m "mensaje"
+git commit -m "message"
 git push origin main
 git tag -a vX.Y.Z -m "vX.Y.Z"
 git push origin vX.Y.Z
 ```
 
-## Consumo (CDN)
+## Consumption (CDN)
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/EunoriaNetwork/eunoria-ui-framework@main/css/eunoria-ui-framework.css">
 <script src="https://cdn.jsdelivr.net/gh/EunoriaNetwork/eunoria-ui-framework@main/js/eunoria-ui-framework.js"></script>
 ```
 
-## Notas
-- Repositorio público en `EunoriaNetwork/eunoria-ui-framework`.
-- Remote por SSH: `git@github.com:EunoriaNetwork/eunoria-ui-framework.git`.
-- No copiar a `GTA Eunoria` sin confirmación del usuario.
-- La carpeta original `Eunoria-UI/gta-ui-framework` fue eliminada/movida; la fuente de verdad es esta carpeta.
+## Notes
+- Public repository at `EunoriaNetwork/eunoria-ui-framework`.
+- Remote over SSH: `git@github.com:EunoriaNetwork/eunoria-ui-framework.git`.
+- Do not copy into `GTA Eunoria` without the user's confirmation.
+- The original `Eunoria-UI/gta-ui-framework` folder was removed/moved; this folder is the source of truth.

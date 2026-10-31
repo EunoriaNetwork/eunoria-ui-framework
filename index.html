@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/eunoria-ui-framework.css">
 </head>
 <body>
-  <!-- Fondo del juego + overlay -->
+  <!-- Game background + overlay -->
   <div class="eu-game-bg"></div>
   <div class="eu-overlay"></div>
 
@@ -20,10 +20,10 @@
       <div class="eu-flex eu-flex--between eu-flex--wrap eu-gap-4">
         <div>
           <h1 class="eu-title eu-title--xl">EUNORIA UI FRAMEWORK <span class="eu-text-accent" style="font-size:0.4em;vertical-align:middle;">v1.0</span></h1>
-          <p class="eu-subtitle">Framework de interfaces para GTA V Enhanced. Base #050505 + overlay semi-transparente. Responsive min 640x480.</p>
+          <p class="eu-subtitle">Interface framework for GTA V Enhanced. Base #050505 + semi-transparent overlay. Responsive min 640x480.</p>
         </div>
         <div class="eu-flex eu-gap-2">
-          <span class="eu-badge eu-badge--active"><i class="fa-solid fa-circle" style="font-size:8px;"></i> EN JUEGO</span>
+          <span class="eu-badge eu-badge--active"><i class="fa-solid fa-circle" style="font-size:8px;"></i> IN GAME</span>
           <button class="eu-btn eu-btn--secondary eu-btn--sm" onclick="euToast('Framework listo', 'success')"><i class="fa-solid fa-bell"></i> Toast</button>
         </div>
       </div>
@@ -31,16 +31,16 @@
 
     <main class="eu-container">
 
-      <!-- TIPOGRAFIA -->
+      <!-- TYPOGRAPHY -->
       <section class="eu-mb-8">
-        <h2 class="eu-title eu-title--lg eu-mb-4">1. Tipografia</h2>
+        <h2 class="eu-title eu-title--lg eu-mb-4">1. Typography</h2>
         <div class="eu-panel">
           <div class="eu-panel__body eu-flex eu-flex--col eu-gap-3">
-            <h3 class="eu-title eu-title--xl">TITULO XL</h3>
-            <h3 class="eu-title eu-title--lg">Titulo Large</h3>
-            <h3 class="eu-title eu-title--md">Titulo Medium</h3>
-            <p class="eu-subtitle">Subtitulo muted para descripciones y ayuda contextual.</p>
-            <p>Texto base del cuerpo. <span class="eu-text-accent">Acento</span> <span class="eu-text-money">$1,250</span> <span class="eu-text-info">Info</span> <span class="eu-text-danger">Error</span> <span class="eu-text-success">OK</span></p>
+            <h3 class="eu-title eu-title--xl">TITLE XL</h3>
+            <h3 class="eu-title eu-title--lg">Title Large</h3>
+            <h3 class="eu-title eu-title--md">Title Medium</h3>
+            <p class="eu-subtitle">Muted subtitle for descriptions and contextual help.</p>
+            <p>Body base text. <span class="eu-text-accent">Acento</span> <span class="eu-text-money">$1,250</span> <span class="eu-text-info">Info</span> <span class="eu-text-danger">Error</span> <span class="eu-text-success">OK</span></p>
             <div class="eu-flex eu-gap-2 eu-flex--wrap">
               <span class="eu-kbd">ESC</span>
               <span class="eu-kbd">ENTER</span>
@@ -51,18 +51,18 @@
         </div>
       </section>
 
-      <!-- BOTONES -->
+      <!-- BUTTONS -->
       <section class="eu-mb-8">
-        <h2 class="eu-title eu-title--lg eu-mb-4">2. Botones</h2>
+        <h2 class="eu-title eu-title--lg eu-mb-4">2. Buttons</h2>
         <div class="eu-panel">
           <div class="eu-panel__body eu-flex eu-flex--col eu-gap-4">
             <div class="eu-flex eu-gap-3 eu-flex--wrap">
-              <button class="eu-btn eu-btn--primary">CONFIRMAR <span class="eu-kbd">ENTER</span></button>
-              <button class="eu-btn eu-btn--secondary">CANCELAR <span class="eu-kbd">ESC</span></button>
+              <button class="eu-btn eu-btn--primary">CONFIRM <span class="eu-kbd">ENTER</span></button>
+              <button class="eu-btn eu-btn--secondary">CANCEL <span class="eu-kbd">ESC</span></button>
               <button class="eu-btn eu-btn--ghost"><i class="fa-solid fa-gear"></i> CONFIG</button>
-              <button class="eu-btn eu-btn--danger"><i class="fa-solid fa-trash"></i> ELIMINAR</button>
-              <button class="eu-btn eu-btn--success"><i class="fa-solid fa-check"></i> GUARDAR</button>
-              <button class="eu-btn eu-btn--primary eu-btn--disabled">BLOQUEADO</button>
+              <button class="eu-btn eu-btn--danger"><i class="fa-solid fa-trash"></i> DELETE</button>
+              <button class="eu-btn eu-btn--success"><i class="fa-solid fa-check"></i> SAVE</button>
+              <button class="eu-btn eu-btn--primary eu-btn--disabled">LOCKED</button>
             </div>
             <div class="eu-flex eu-gap-3 eu-flex--wrap">
               <button class="eu-btn eu-btn--primary eu-btn--sm">Small</button>
@@ -75,9 +75,9 @@
         </div>
       </section>
 
-      <!-- TARJETAS -->
+      <!-- CARDS -->
       <section class="eu-mb-8">
-        <h2 class="eu-title eu-title--lg eu-mb-4">3. Tarjetas seleccionables (JetSam)</h2>
+        <h2 class="eu-title eu-title--lg eu-mb-4">3. Selectable cards (JetSam)</h2>
         <div class="eu-grid eu-grid--2">
           <div class="eu-card active" data-eu-card-group="shifts">
             <div class="eu-card-image-wrapper">
@@ -105,20 +105,20 @@
         <div class="eu-grid eu-grid--3 eu-mt-4" style="margin-top:16px;">
           <div class="eu-card active eu-card--compact" data-eu-card-group="modes">
             <div class="eu-card-body">
-              <div class="eu-card-title" style="font-size:1rem;">MODO INDIVIDUAL <i class="fa-solid fa-user eu-card-icon"></i></div>
-              <p class="eu-card-desc">Comienza el turno en solitario.</p>
+              <div class="eu-card-title" style="font-size:1rem;">SOLO MODE <i class="fa-solid fa-user eu-card-icon"></i></div>
+              <p class="eu-card-desc">Start the shift solo.</p>
             </div>
           </div>
           <div class="eu-card eu-card--compact" data-eu-card-group="modes">
             <div class="eu-card-body">
-              <div class="eu-card-title" style="font-size:1rem;">MODO COOPERATIVO <i class="fa-solid fa-users eu-card-icon"></i></div>
-              <p class="eu-card-desc">Trabaja en equipo (+25% bonus).</p>
+              <div class="eu-card-title" style="font-size:1rem;">COOP MODE <i class="fa-solid fa-users eu-card-icon"></i></div>
+              <p class="eu-card-desc">Work as a team (+25% bonus).</p>
             </div>
           </div>
           <div class="eu-card eu-card--compact eu-card--disabled">
             <div class="eu-card-body">
-              <div class="eu-card-title" style="font-size:1rem;">MODO EXPERTO <i class="fa-solid fa-lock eu-card-icon" style="color:#ef4444;opacity:1;transform:none;"></i></div>
-              <p class="eu-card-desc">Requiere Nivel 10.</p>
+              <div class="eu-card-title" style="font-size:1rem;">EXPERT MODE <i class="fa-solid fa-lock eu-card-icon" style="color:#ef4444;opacity:1;transform:none;"></i></div>
+              <p class="eu-card-desc">Requires Level 10.</p>
             </div>
           </div>
         </div>
@@ -126,7 +126,7 @@
 
       <!-- MODAL -->
       <section class="eu-mb-8">
-        <h2 class="eu-title eu-title--lg eu-mb-4">4. Modal / Panel contenedor</h2>
+        <h2 class="eu-title eu-title--lg eu-mb-4">4. Modal / container panel</h2>
         <div class="eu-modal">
           <div class="eu-modal-header">
             <div>
@@ -139,14 +139,14 @@
             </div>
           </div>
           <div class="eu-modal-body">
-            <p class="eu-subtitle">Contenido del modal. Aqui van formularios, listas, tablas, etc.</p>
+            <p class="eu-subtitle">Modal content. Forms, lists, tables, etc. go here.</p>
             <div class="eu-divider"></div>
             <div class="eu-grid eu-grid--2">
               <div class="eu-item">
                 <div class="eu-item__icon"><i class="fa-solid fa-truck"></i></div>
                 <div>
                   <div class="eu-item__title">FORKLIFT</div>
-                  <div class="eu-item__desc">Movimiento rapido en almacen.</div>
+                  <div class="eu-item__desc">Fast movement in warehouse.</div>
                 </div>
                 <div class="eu-item__meta">$120/hr</div>
               </div>
@@ -154,14 +154,14 @@
                 <div class="eu-item__icon"><i class="fa-solid fa-ship"></i></div>
                 <div>
                   <div class="eu-item__title">GANTRY CRANE</div>
-                  <div class="eu-item__desc">Carga pesada en muelle.</div>
+                  <div class="eu-item__desc">Heavy load on dock.</div>
                 </div>
                 <div class="eu-item__meta">$340/hr</div>
               </div>
             </div>
           </div>
           <div class="eu-modal-footer">
-            <button class="eu-btn eu-btn--secondary">CANCELAR <span class="eu-kbd">ESC</span></button>
+            <button class="eu-btn eu-btn--secondary">CANCEL <span class="eu-kbd">ESC</span></button>
             <button class="eu-btn eu-btn--primary">START SHIFT <span class="eu-kbd">ENTER</span></button>
           </div>
         </div>
@@ -169,49 +169,49 @@
 
       <!-- INPUTS -->
       <section class="eu-mb-8">
-        <h2 class="eu-title eu-title--lg eu-mb-4">5. Inputs y controles</h2>
+        <h2 class="eu-title eu-title--lg eu-mb-4">5. Inputs and controls</h2>
         <div class="eu-grid eu-grid--2">
           <div class="eu-panel">
-            <div class="eu-panel__header"><h3 class="eu-title eu-title--md">Campos</h3></div>
+            <div class="eu-panel__header"><h3 class="eu-title eu-title--md">Fields</h3></div>
             <div class="eu-panel__body eu-flex eu-flex--col eu-gap-4">
               <div>
-                <label class="eu-label">Nombre del operador</label>
-                <input class="eu-input" type="text" placeholder="Ej: John Doe">
+                <label class="eu-label">Operator name</label>
+                <input class="eu-input" type="text" placeholder="E.g.: John Doe">
               </div>
               <div>
-                <label class="eu-label">Buscar contenedor</label>
+                <label class="eu-label">Search container</label>
                 <div class="eu-input-group">
-                  <input class="eu-input" type="text" placeholder="Codigo de carga">
+                  <input class="eu-input" type="text" placeholder="Load code">
                   <i class="fa-solid fa-magnifying-glass eu-input-group__icon"></i>
                 </div>
               </div>
               <div>
-                <label class="eu-label">Tipo de maquinaria</label>
+                <label class="eu-label">Machinery type</label>
                 <select class="eu-input">
-                  <option>Grua Horquilla (Forklift)</option>
-                  <option>Grua Portico (Gantry Crane)</option>
-                  <option>Camion de Carga (Flatbed)</option>
+                  <option>Forklift</option>
+                  <option>Gantry Crane</option>
+                  <option>Flatbed Truck</option>
                 </select>
               </div>
               <div>
-                <label class="eu-label">Notas</label>
-                <textarea class="eu-input" rows="3" placeholder="Observaciones del turno..."></textarea>
+                <label class="eu-label">Notes</label>
+                <textarea class="eu-input" rows="3" placeholder="Shift observations..."></textarea>
               </div>
             </div>
           </div>
           <div class="eu-panel">
-            <div class="eu-panel__header"><h3 class="eu-title eu-title--md">Controles</h3></div>
+            <div class="eu-panel__header"><h3 class="eu-title eu-title--md">Controls</h3></div>
             <div class="eu-panel__body eu-flex eu-flex--col eu-gap-4">
-              <label class="eu-check"><input type="checkbox" checked><span class="eu-check__box"></span> Activar radio</label>
-              <label class="eu-check"><input type="checkbox"><span class="eu-check__box"></span> Modo nocturno</label>
-              <label class="eu-check eu-check--radio"><input type="radio" name="r" checked><span class="eu-check__box"></span> Opcion A</label>
-              <label class="eu-check eu-check--radio"><input type="radio" name="r"><span class="eu-check__box"></span> Opcion B</label>
+              <label class="eu-check"><input type="checkbox" checked><span class="eu-check__box"></span> Enable radio</label>
+              <label class="eu-check"><input type="checkbox"><span class="eu-check__box"></span> Night mode</label>
+              <label class="eu-check eu-check--radio"><input type="radio" name="r" checked><span class="eu-check__box"></span> Option A</label>
+              <label class="eu-check eu-check--radio"><input type="radio" name="r"><span class="eu-check__box"></span> Option B</label>
               <div class="eu-flex eu-flex--between eu-gap-3">
-                <span class="eu-label" style="margin:0;">Sonido</span>
+                <span class="eu-label" style="margin:0;">Sound</span>
                 <label class="eu-toggle"><input type="checkbox" checked><span class="eu-toggle__track"></span><span class="eu-toggle__thumb"></span></label>
               </div>
               <div>
-                <div class="eu-flex eu-flex--between eu-mb-2"><span class="eu-label" style="margin:0;">Volumen</span><span class="eu-text-accent">75%</span></div>
+                <div class="eu-flex eu-flex--between eu-mb-2"><span class="eu-label" style="margin:0;">Volume</span><span class="eu-text-accent">75%</span></div>
                 <input class="eu-slider" type="range" min="0" max="100" value="75">
               </div>
             </div>
@@ -221,47 +221,47 @@
 
       <!-- BADGES / PROGRESS -->
       <section class="eu-mb-8">
-        <h2 class="eu-title eu-title--lg eu-mb-4">6. Badges, progreso y alertas</h2>
+        <h2 class="eu-title eu-title--lg eu-mb-4">6. Badges, progress and alerts</h2>
         <div class="eu-grid eu-grid--2">
           <div class="eu-panel">
             <div class="eu-panel__header"><h3 class="eu-title eu-title--md">Badges</h3></div>
             <div class="eu-panel__body eu-flex eu-gap-2 eu-flex--wrap">
-              <span class="eu-badge eu-badge--active eu-badge--dot">EN TURNO</span>
-              <span class="eu-badge"><i class="fa-solid fa-clock"></i> ESPERANDO CARGA</span>
-              <span class="eu-badge eu-badge--danger"><i class="fa-solid fa-triangle-exclamation"></i> MANTENIMIENTO</span>
+              <span class="eu-badge eu-badge--active eu-badge--dot">ON SHIFT</span>
+              <span class="eu-badge"><i class="fa-solid fa-clock"></i> AWAITING LOAD</span>
+              <span class="eu-badge eu-badge--danger"><i class="fa-solid fa-triangle-exclamation"></i> MAINTENANCE</span>
               <span class="eu-badge eu-badge--money"><i class="fa-solid fa-dollar-sign"></i> $1,250</span>
               <span class="eu-badge eu-badge--info"><i class="fa-solid fa-circle-info"></i> INFO</span>
-              <span class="eu-badge eu-badge--success"><i class="fa-solid fa-check"></i> COMPLETADO</span>
+              <span class="eu-badge eu-badge--success"><i class="fa-solid fa-check"></i> COMPLETED</span>
             </div>
             <div class="eu-panel__body" style="padding-top:0;">
               <div class="eu-mb-3">
-                <div class="eu-flex eu-flex--between eu-mb-2"><span class="eu-label" style="margin:0;">Capacidad de almacen</span><span class="eu-text-accent">75%</span></div>
+                <div class="eu-flex eu-flex--between eu-mb-2"><span class="eu-label" style="margin:0;">Storage capacity</span><span class="eu-text-accent">75%</span></div>
                 <div class="eu-progress eu-progress--lg"><div class="eu-progress-bar" style="width:75%;"></div></div>
               </div>
               <div class="eu-mb-3">
-                <div class="eu-flex eu-flex--between eu-mb-2"><span class="eu-label" style="margin:0;">Salud</span><span class="eu-text-danger">40%</span></div>
+                <div class="eu-flex eu-flex--between eu-mb-2"><span class="eu-label" style="margin:0;">Health</span><span class="eu-text-danger">40%</span></div>
                 <div class="eu-progress"><div class="eu-progress-bar eu-progress-bar--danger" style="width:40%;"></div></div>
               </div>
               <div>
-                <div class="eu-flex eu-flex--between eu-mb-2"><span class="eu-label" style="margin:0;">Experiencia</span><span class="eu-text-info">60%</span></div>
+                <div class="eu-flex eu-flex--between eu-mb-2"><span class="eu-label" style="margin:0;">Experience</span><span class="eu-text-info">60%</span></div>
                 <div class="eu-progress eu-progress--sm"><div class="eu-progress-bar eu-progress-bar--info" style="width:60%;"></div></div>
               </div>
             </div>
           </div>
           <div class="eu-panel">
-            <div class="eu-panel__header"><h3 class="eu-title eu-title--md">Alertas</h3></div>
+            <div class="eu-panel__header"><h3 class="eu-title eu-title--md">Alerts</h3></div>
             <div class="eu-panel__body eu-flex eu-flex--col eu-gap-3">
               <div class="eu-alert">
                 <i class="fa-solid fa-circle-info eu-alert__icon" style="color:var(--eu-accent);"></i>
-                <div><div class="eu-alert__title">Notificacion de puerto</div><div class="eu-alert__text">El turno nocturno otorga paga doble por contenedor procesado.</div></div>
+                <div><div class="eu-alert__title">Port notification</div><div class="eu-alert__text">Night shift grants double pay per processed container.</div></div>
               </div>
               <div class="eu-alert eu-alert--danger">
                 <i class="fa-solid fa-triangle-exclamation eu-alert__icon" style="color:var(--eu-danger);"></i>
-                <div><div class="eu-alert__title">Mantenimiento</div><div class="eu-alert__text">La grua portico esta fuera de servicio.</div></div>
+                <div><div class="eu-alert__title">MAINTENANCE</div><div class="eu-alert__text">The gantry crane is out of service.</div></div>
               </div>
               <div class="eu-alert eu-alert--success">
                 <i class="fa-solid fa-check eu-alert__icon" style="color:var(--eu-success);"></i>
-                <div><div class="eu-alert__title">Turno completado</div><div class="eu-alert__text">Has procesado 12 contenedores.</div></div>
+                <div><div class="eu-alert__title">Shift COMPLETED</div><div class="eu-alert__text">You processed 12 containers.</div></div>
               </div>
             </div>
           </div>
@@ -274,40 +274,40 @@
         <div class="eu-panel">
           <div class="eu-tabs">
             <button class="eu-tab active" data-eu-tab="tab1" data-eu-tab-group="demo">General</button>
-            <button class="eu-tab" data-eu-tab="tab2" data-eu-tab-group="demo">Inventario</button>
-            <button class="eu-tab" data-eu-tab="tab3" data-eu-tab-group="demo">Estadisticas</button>
+            <button class="eu-tab" data-eu-tab="tab2" data-eu-tab-group="demo">Inventory</button>
+            <button class="eu-tab" data-eu-tab="tab3" data-eu-tab-group="demo">Statistics</button>
           </div>
           <div class="eu-panel__body">
             <div class="eu-tab-panel active" data-eu-panel="tab1" data-eu-panel-group="demo">
-              <p class="eu-subtitle">Contenido general del panel. Aqui va informacion principal del turno.</p>
+              <p class="eu-subtitle">General panel content. Main shift info goes here.</p>
             </div>
             <div class="eu-tab-panel" data-eu-panel="tab2" data-eu-panel-group="demo">
-              <p class="eu-subtitle">Lista de items del inventario del jugador.</p>
+              <p class="eu-subtitle">Player inventory item list.</p>
               <div class="eu-list eu-mt-4" style="margin-top:12px;">
-                <div class="eu-item"><div class="eu-item__icon"><i class="fa-solid fa-box"></i></div><div><div class="eu-item__title">CAJA DE HERRAMIENTAS</div><div class="eu-item__desc">x3</div></div><div class="eu-item__meta">0.5 kg</div></div>
-                <div class="eu-item"><div class="eu-item__icon"><i class="fa-solid fa-gas-pump"></i></div><div><div class="eu-item__title">BIDON DE GASOLINA</div><div class="eu-item__desc">x1</div></div><div class="eu-item__meta">20 L</div></div>
+                <div class="eu-item"><div class="eu-item__icon"><i class="fa-solid fa-box"></i></div><div><div class="eu-item__title">TOOLBOX</div><div class="eu-item__desc">x3</div></div><div class="eu-item__meta">0.5 kg</div></div>
+                <div class="eu-item"><div class="eu-item__icon"><i class="fa-solid fa-gas-pump"></i></div><div><div class="eu-item__title">GAS CAN</div><div class="eu-item__desc">x1</div></div><div class="eu-item__meta">20 L</div></div>
               </div>
             </div>
             <div class="eu-tab-panel" data-eu-panel="tab3" data-eu-panel-group="demo">
-              <p class="eu-subtitle">Estadisticas del jugador: turnos completados, dinero ganado, etc.</p>
+              <p class="eu-subtitle">Statistics del Player: Shifts COMPLETEDs, dinero ganado, etc.</p>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- TABLA -->
+      <!-- TABLE -->
       <section class="eu-mb-8">
-        <h2 class="eu-title eu-title--lg eu-mb-4">8. Tabla</h2>
+        <h2 class="eu-title eu-title--lg eu-mb-4">8. Table</h2>
         <div class="eu-panel">
           <div class="eu-panel__body" style="padding:0;">
             <table class="eu-table eu-table--striped">
               <thead>
-                <tr><th>Jugador</th><th>Turno</th><th>Contenedores</th><th>Pago</th><th>Estado</th></tr>
+                <tr><th>Player</th><th>Shift</th><th>Containers</th><th>Pay</th><th>Status</th></tr>
               </thead>
               <tbody>
-                <tr><td>John_Doe</td><td>Nocturno</td><td>12</td><td class="eu-text-money">$1,440</td><td><span class="eu-badge eu-badge--success eu-badge--dot">ACTIVO</span></td></tr>
-                <tr><td>Jane_Smith</td><td>Diurno</td><td>8</td><td class="eu-text-money">$640</td><td><span class="eu-badge eu-badge--info eu-badge--dot">ESPERANDO</span></td></tr>
-                <tr><td>Mike_Ross</td><td>Nocturno</td><td>0</td><td class="eu-text-money">$0</td><td><span class="eu-badge eu-badge--danger eu-badge--dot">MANT.</span></td></tr>
+                <tr><td>John_Doe</td><td>NocShift</td><td>12</td><td class="eu-text-money">$1,440</td><td><span class="eu-badge eu-badge--success eu-badge--dot">ACTIVE</span></td></tr>
+                <tr><td>Jane_Smith</td><td>Day</td><td>8</td><td class="eu-text-money">$640</td><td><span class="eu-badge eu-badge--info eu-badge--dot">WAITING</span></td></tr>
+                <tr><td>Mike_Ross</td><td>NocShift</td><td>0</td><td class="eu-text-money">$0</td><td><span class="eu-badge eu-badge--danger eu-badge--dot">MAINT.</span></td></tr>
               </tbody>
             </table>
           </div>
@@ -316,31 +316,31 @@
 
       <!-- TOOLTIP + SKELETON -->
       <section class="eu-mb-8">
-        <h2 class="eu-title eu-title--lg eu-mb-4">9. Tooltip y Skeleton</h2>
+        <h2 class="eu-title eu-title--lg eu-mb-4">9. Tooltip and Skeleton</h2>
         <div class="eu-flex eu-gap-4 eu-flex--wrap">
-          <span class="eu-tooltip">Pasa el raton <span class="eu-tooltip__content">Tooltip informativo</span></span>
+          <span class="eu-tooltip">Hover here <span class="eu-tooltip__content">Informative tooltip</span></span>
           <div class="eu-skeleton" style="width:200px;height:20px;"></div>
           <div class="eu-skeleton" style="width:120px;height:36px;"></div>
         </div>
       </section>
 
-      <!-- PANEL ALTURAS FIJAS -->
+      <!-- FIXED HEIGHT PANEL -->
       <section class="eu-mb-8">
-        <h2 class="eu-title eu-title--lg eu-mb-4">10. Panel con alturas fijas</h2>
+        <h2 class="eu-title eu-title--lg eu-mb-4">10. Panel with fixed heights</h2>
         <div class="eu-panel" style="height:240px;">
-          <div class="eu-panel__header"><h3 class="eu-title eu-title--md">INVENTARIO (scroll)</h3></div>
+          <div class="eu-panel__header"><h3 class="eu-title eu-title--md">Inventory (scroll)</h3></div>
           <div class="eu-panel__body">
             <div class="eu-list">
-              <div class="eu-item"><div class="eu-item__icon"><i class="fa-solid fa-box"></i></div><div><div class="eu-item__title">ITEM 1</div><div class="eu-item__desc">Descripcion</div></div></div>
-              <div class="eu-item"><div class="eu-item__icon"><i class="fa-solid fa-box"></i></div><div><div class="eu-item__title">ITEM 2</div><div class="eu-item__desc">Descripcion</div></div></div>
-              <div class="eu-item"><div class="eu-item__icon"><i class="fa-solid fa-box"></i></div><div><div class="eu-item__title">ITEM 3</div><div class="eu-item__desc">Descripcion</div></div></div>
-              <div class="eu-item"><div class="eu-item__icon"><i class="fa-solid fa-box"></i></div><div><div class="eu-item__title">ITEM 4</div><div class="eu-item__desc">Descripcion</div></div></div>
-              <div class="eu-item"><div class="eu-item__icon"><i class="fa-solid fa-box"></i></div><div><div class="eu-item__title">ITEM 5</div><div class="eu-item__desc">Descripcion</div></div></div>
+              <div class="eu-item"><div class="eu-item__icon"><i class="fa-solid fa-box"></i></div><div><div class="eu-item__title">ITEM 1</div><div class="eu-item__desc">Description</div></div></div>
+              <div class="eu-item"><div class="eu-item__icon"><i class="fa-solid fa-box"></i></div><div><div class="eu-item__title">ITEM 2</div><div class="eu-item__desc">Description</div></div></div>
+              <div class="eu-item"><div class="eu-item__icon"><i class="fa-solid fa-box"></i></div><div><div class="eu-item__title">ITEM 3</div><div class="eu-item__desc">Description</div></div></div>
+              <div class="eu-item"><div class="eu-item__icon"><i class="fa-solid fa-box"></i></div><div><div class="eu-item__title">ITEM 4</div><div class="eu-item__desc">Description</div></div></div>
+              <div class="eu-item"><div class="eu-item__icon"><i class="fa-solid fa-box"></i></div><div><div class="eu-item__title">ITEM 5</div><div class="eu-item__desc">Description</div></div></div>
             </div>
           </div>
           <div class="eu-panel__footer eu-flex eu-flex--between">
             <span class="eu-subtitle">5 items</span>
-            <button class="eu-btn eu-btn--primary eu-btn--sm">ACEPTAR</button>
+            <button class="eu-btn eu-btn--primary eu-btn--sm">ACCEPT</button>
           </div>
         </div>
       </section>

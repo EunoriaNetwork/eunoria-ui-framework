@@ -8,6 +8,8 @@ CSS/JS framework for HTML interfaces on top of GTA V Enhanced. Style inspired by
 - `js/eunoria-ui-framework.js` — helpers (tabs, card selection, toasts).
 - `index.html` — example page showing every component.
 - `README.md` — usage and tokens.
+- `LICENSE` — proprietary, all rights reserved.
+- `CONTRIBUTING.md` — contribution rules.
 - `.gitignore` — exclusions.
 
 ## Conventions

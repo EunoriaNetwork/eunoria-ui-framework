@@ -40,6 +40,16 @@ Supports down to 640x480 as a minimum. Media queries at 900px, 640px and 480px h
 
 Typography, buttons, cards, modal/panel, inputs, checkbox/radio/toggle/slider, badges, progress, alerts, tabs, tooltip, toast, list items, table, divider, skeleton, panel with fixed heights, custom gold scrollbar.
 
+## License
+
+Copyright (c) 2026 EunoriaNetwork. All rights reserved.
+See `LICENSE` for details. The code may not be copied, modified or
+redistributed without prior written permission.
+
+## Contributing
+
+See `CONTRIBUTING.md`.
+
 ## Notes
 
 - Custom gold scrollbar (no stripes), own style.

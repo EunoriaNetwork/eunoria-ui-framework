@@ -195,6 +195,14 @@ body {
   padding: 0 var(--eu-space-4);
 }
 
+/* Shell: centered content wrapper (max-width 1200px) for topbar/main/footer */
+.eu-shell {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--eu-space-4);
+}
+
 .eu-row {
   display: flex;
   flex-wrap: wrap;
